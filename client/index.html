@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Realtime Multiuser Drawing Talk</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./drawing-board/drawing-board.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- Some cool basic Navbar -->
+  <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand text-white" href="#">
+          <img src="https://images.vexels.com/media/users/3/129759/isolated/preview/e57821f1317893d1c2d8e184d4f9d595-chat-bubble-icon-by-vexels.png"
+              width="45" height="45" class="d-inline-block align-center" alt="">
+          Realtime Multiuser Drawing Talk
+      </a>
+  </nav>
+  <!-- Messages Container -->
+  <ul class="list-group" id="messageContainer">
+
+  </ul>
+
+  <!-- Drawing Board and Send Button -->
+  <div id="sendMessageBoardDiv" class="d-flex flex-row bg-white">
+      <div id="sendMessageBoard" class="w-75" style="height: 30vh"></div>
+    <button id="sendDWGbtn" class="btn btn-dark w-25">Send Message</button>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
+  <script src="./drawing-board/drawing-board.min.js"></script>
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>

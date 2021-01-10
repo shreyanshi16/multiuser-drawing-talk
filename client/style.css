@@ -1,0 +1,45 @@
+nav {
+  position: fixed;
+  top: 0em;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  font-size: 30rem;
+}
+
+#messageContainer {
+  width: 100%;
+  margin-top: 45px;
+  margin-bottom: 35vh;
+  z-index: 1;
+}
+
+/* Send Message board must stick to bottom */
+#sendMessageBoardDiv {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30vh;
+  z-index: 10;
+  margin: 10px 10px 10px 10px;
+}
+
+#sendMessageBoard {
+  padding-right: 10px;
+}
+
+#sendDWGbtn {
+  border-radius: 15px;
+  border-color: #3c1052ff;
+  background-color: #3c1052ff;
+  font-size: 2rem;
+  font-family: cursive;
+  margin-top: 30px;
+  height: 25vh;
+}
+
+.img-msg {
+  border: 2px solid #3c1052ff;
+  border-radius: 15px;
+}
