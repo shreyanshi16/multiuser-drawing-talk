@@ -1,2 +1,1 @@
-# multiuser-drawing-talk
-Created with CodeSandbox
+A chatting app that sends user-made drawings instead of simple chat messages. I have used Express and HTTP server with Socket.io for real-time capabilities and used drawingboard.js and jQuery for frontend.
